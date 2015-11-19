@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.my.myapplication" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="Расписание"
+        android:supportsRtl="true"
+        android:theme="@style/MyTheme" >
+
+        <activity
+            android:name=".MapActivit"
+            android:label="Карта"
+            android:theme="@style/MyTheme" />
+
+        <activity
+            android:name=".RaspActivity"
+            android:label="Расписание"
+            android:theme="@style/MyTheme" />
+
+        <activity
+            android:name=".OnasActivity"
+            android:label="О нас"
+            android:theme="@style/MyTheme" />
+
+        <activity
+            android:name=".AboutActivity"
+            android:label="О программе"
+            android:theme="@style/MyTheme" />
+
+        <activity
+            android:name=".NewsActivity"
+            android:label="Расписание"
+            android:theme="@style/MyTheme" >
+
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN"
+                    />
+                <category
+                    android:name="android.intent.category.LAUNCHER"
+                    />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
